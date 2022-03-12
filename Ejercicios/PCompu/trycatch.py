@@ -29,6 +29,6 @@ def busca_pais(paises, pais):
     try:
         return paises[pais]
     except KeyError:
-        return print('\n \nEl pais que buscas, no se encuentra en la base de datos')
+        return print('\nEl pais que buscas, no se encuentra en la base de datos')
 
 print(busca_pais(paises, pais))
